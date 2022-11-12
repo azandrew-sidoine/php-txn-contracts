@@ -1,0 +1,61 @@
+<?php
+
+namespace Drewlabs\Txn;
+
+interface TransactionInterface
+{
+    /**
+     * Returns unique identifying value of the transaction on all platform
+     *
+     * @return string|int
+     */
+    public function getReference();
+
+    /**
+     * Returns the transaction id on the payment payment platform
+     *
+     * @return string|int
+     */
+    public function getId();
+
+    /**
+     * Returns the actual value of the transaction. Usually in case of payment
+     * commands, transaction value is the currency based amount of the payment
+     *
+     * @return string|int
+     */
+    public function getValue();
+
+    /**
+     * Return the weight of the transaction. For currency based transactions, this can be
+     * `XOF`, 'USD', 'EUR', etc...
+     *
+     * **Note**
+     * Weight will impact during transaction value from conversion
+     *
+     * @return string
+     */
+    public function getWeight();
+
+    /**
+     * Date Time representation of the transaction create time
+     *
+     * @return \DateTimeInterface
+     */
+    public function createdAt();
+
+
+    /**
+     * Returns true if the transaction is processed and false if not
+     *
+     * @return bool
+     */
+    public function isProcessed();
+
+    /**
+     * Returns true is the transaction is still in pending state
+     *
+     * @return mixed
+     */
+    public function isPending();
+}
