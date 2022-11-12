@@ -1,0 +1,49 @@
+{
+    "name": "Drewlabs\\Txn\\Enum\\TransactionStatus",
+    "line": 5,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "Drewlabs\\Txn\\Enum",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/Enum\/TransactionStatus.php",
+    "relative_file": "\/src\/Enum\/TransactionStatus.php",
+    "hash": "f7f996d2b13c4cecbebd5feb7837c1e69b77683b",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": {
+        "PENDING": {
+            "name": "PENDING",
+            "line": 12,
+            "short_desc": "Pending Transaction status enumerated value",
+            "long_desc": "",
+            "modifiers": 1,
+            "tags": []
+        },
+        "VALIDATED": {
+            "name": "VALIDATED",
+            "line": 19,
+            "short_desc": "Validated Transaction status enumerated value",
+            "long_desc": "",
+            "modifiers": 1,
+            "tags": []
+        },
+        "FAILED": {
+            "name": "FAILED",
+            "line": 26,
+            "short_desc": "Failed Transaction status enumerated value",
+            "long_desc": "",
+            "modifiers": 1,
+            "tags": []
+        }
+    }
+}

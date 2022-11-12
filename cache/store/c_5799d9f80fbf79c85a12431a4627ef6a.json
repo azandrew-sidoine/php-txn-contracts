@@ -1,0 +1,68 @@
+{
+    "name": "Drewlabs\\Txn\\OneWayTransactionProcessorInterface",
+    "line": 5,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/OneWayTransactionProcessorInterface.php",
+    "relative_file": "\/src\/OneWayTransactionProcessorInterface.php",
+    "hash": "6d61cd600ee03abed6a4484f417f71eb157dc6b1",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "addTransactionResponseLister": {
+            "name": "addTransactionResponseLister",
+            "line": 14,
+            "short_desc": "Add a listener to the result of process transaction action",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "callback": {
+                    "name": "callback",
+                    "line": 14,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Drewlabs\\Txn\\TransactionResultListener",
+                            false
+                        ],
+                        [
+                            "\\Closure<\\Drewlabs\\Txn\\ProcessTransactionResultInterface>",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

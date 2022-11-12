@@ -1,0 +1,89 @@
+{
+    "name": "Drewlabs\\Txn\\ProcessorLibraryFactoryInterface",
+    "line": 13,
+    "short_desc": "A `Processor Library Factory` provides API for creating a processor client\nbased on the processor configuration values.",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Drewlabs\\Txn"
+            ]
+        ]
+    },
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/ProcessorLibraryFactoryInterface.php",
+    "relative_file": "\/src\/ProcessorLibraryFactoryInterface.php",
+    "hash": "b13f7a139cee8e27b59462493082a4860abf605f",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": {
+        "ProcessorLibraryNotFoundException": "Drewlabs\\Txn\\Exceptions\\ProcessorLibraryNotFoundException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "createInstance": {
+            "name": "createInstance",
+            "line": 24,
+            "short_desc": "Creates a processor Library based on processor instance",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Drewlabs\\Txn\\ProcessorLibraryInterface",
+                    false
+                ],
+                [
+                    "\\Drewlabs\\Txn\\TransactionalProcessorLibraryInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [
+                [
+                    "\\RuntimeException",
+                    ""
+                ],
+                [
+                    "\\InvalidArgumentException",
+                    ""
+                ],
+                [
+                    "\\Drewlabs\\Txn\\Exceptions\\ProcessorLibraryNotFoundException",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "processor": {
+                    "name": "processor",
+                    "line": 24,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Drewlabs\\Txn\\LibraryAwareProcessorInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

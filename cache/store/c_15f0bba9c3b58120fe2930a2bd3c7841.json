@@ -1,0 +1,49 @@
+{
+    "name": "Drewlabs\\Txn\\UIAwareProcessorInterface",
+    "line": 5,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/UIAwareProcessorInterface.php",
+    "relative_file": "\/src\/UIAwareProcessorInterface.php",
+    "hash": "be2391497e5f7a4439b9385318171fa7fbd81127",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getUIConfig": {
+            "name": "getUIConfig",
+            "line": 12,
+            "short_desc": "Returns the UI configuration value of the processor",
+            "long_desc": "",
+            "hint": [
+                [
+                    "object",
+                    false
+                ],
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -2,6 +2,13 @@
 
 namespace Drewlabs\Txn;
 
+/**
+ * `Transaction` Refers to a payable entity (Ex: invoice in invoicing system) that have a given reference
+ * to identify it. Transaction usually have a countable value, a weight (Ex: Currency in invoicing system),
+ * the date and time at which the transaction was created and the status of the transaction
+ * 
+ * @package Drewlabs\Txn
+ */
 interface TransactionInterface
 {
     /**

@@ -1,0 +1,115 @@
+{
+    "name": "Drewlabs\\Txn\\TransactionInitiatorPlatform",
+    "line": 12,
+    "short_desc": "In the context on this information technology implementation, an Invoicer Plaform defines\nan entity that makes request for invoice transactions on the gateway platform. `Invoicer Platforms`\nare defines by their name, address, domain, and authorization credentials.",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Drewlabs\\Txn"
+            ]
+        ]
+    },
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/TransactionInitiatorPlatform.php",
+    "relative_file": "\/src\/TransactionInitiatorPlatform.php",
+    "hash": "bf446f0f916b064562b6a193f304b0fb698576cd",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getAddress": {
+            "name": "getAddress",
+            "line": 20,
+            "short_desc": "Get the virtual\/numerical address of the invoicer platform",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDomain": {
+            "name": "getDomain",
+            "line": 27,
+            "short_desc": "Returns the Domain identifier of the Invoicer platform",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCredentials": {
+            "name": "getCredentials",
+            "line": 34,
+            "short_desc": "Returns the list of invoicer plaform credentials",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Drewlabs\\Txn\\TransactionInitiatorPlatformCredential",
+                    true
+                ],
+                [
+                    "\\Traversable<\\Drewlabs\\Txn\\TransactionInitiatorPlatform>",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isActive": {
+            "name": "isActive",
+            "line": 41,
+            "short_desc": "Returns the active\/inactive state of the platform entity",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

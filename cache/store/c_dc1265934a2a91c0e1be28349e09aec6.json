@@ -1,0 +1,72 @@
+{
+    "name": "Drewlabs\\Txn\\TransactionalProcessorLibraryInterface",
+    "line": 15,
+    "short_desc": "{@inheritDoc}",
+    "long_desc": "A `Transactional Processor Library` provides API similar to `Processor Library` entity\nas it inherit from the processor library contract. It adds a `requestOTP` method that\nmake request to send OTP to transactor using the implementation of their choice",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Drewlabs\\Txn"
+            ]
+        ]
+    },
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/TransactionalProcessorLibraryInterface.php",
+    "relative_file": "\/src\/TransactionalProcessorLibraryInterface.php",
+    "hash": "66dcec2cd261d622ca8e2f5c3066478b85c921df",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": {
+        "Drewlabs\\Txn\\ProcessorLibraryInterface": "Drewlabs\\Txn\\ProcessorLibraryInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "requestOTP": {
+            "name": "requestOTP",
+            "line": 24,
+            "short_desc": "Request of an OTP used by client to process a transaction.",
+            "long_desc": "It returns a boolean value indicating the successful state of the request",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "payeerid": {
+                    "name": "payeerid",
+                    "line": 24,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,183 @@
+{
+    "name": "Drewlabs\\Txn\\TransactionInterface",
+    "line": 12,
+    "short_desc": "`Transaction` Refers to a payable entity (Ex: invoice in invoicing system) that have a given reference\nto identify it. Transaction usually have a countable value, a weight (Ex: Currency in invoicing system),\nthe date and time at which the transaction was created and the status of the transaction",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Drewlabs\\Txn"
+            ]
+        ]
+    },
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/TransactionInterface.php",
+    "relative_file": "\/src\/TransactionInterface.php",
+    "hash": "0de9d1a625d387ea2fb955cedd7a80bb6851513c",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getReference": {
+            "name": "getReference",
+            "line": 19,
+            "short_desc": "Returns unique identifying value of the transaction on all platform",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getId": {
+            "name": "getId",
+            "line": 26,
+            "short_desc": "Returns the transaction id on the payment payment platform",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getValue": {
+            "name": "getValue",
+            "line": 34,
+            "short_desc": "Returns the actual value of the transaction. Usually in case of payment\ncommands, transaction value is the currency based amount of the payment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getWeight": {
+            "name": "getWeight",
+            "line": 45,
+            "short_desc": "Return the weight of the transaction. For currency based transactions, this can be\n`XOF`, 'USD', 'EUR', etc...\n\n**Note**\nWeight will impact during transaction value from conversion",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "createdAt": {
+            "name": "createdAt",
+            "line": 52,
+            "short_desc": "Date Time representation of the transaction create time",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTimeInterface",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isProcessed": {
+            "name": "isProcessed",
+            "line": 60,
+            "short_desc": "Returns true if the transaction is processed and false if not",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isPending": {
+            "name": "isPending",
+            "line": 67,
+            "short_desc": "Returns true is the transaction is still in pending state",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

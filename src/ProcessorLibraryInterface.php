@@ -2,6 +2,11 @@
 
 namespace Drewlabs\Txn;
 
+/**
+ * A `Processor Library` is an entity used by the gateway service to process transactions 
+ * 
+ * @package Drewlabs\Txn
+ */
 interface ProcessorLibraryInterface
 {
 

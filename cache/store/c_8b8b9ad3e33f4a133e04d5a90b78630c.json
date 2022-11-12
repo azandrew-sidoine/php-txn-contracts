@@ -1,0 +1,64 @@
+{
+    "name": "Drewlabs\\Txn\\TransactionResultListener",
+    "line": 6,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/TransactionResultListener.php",
+    "relative_file": "\/src\/TransactionResultListener.php",
+    "hash": "8ae5ad696a174e5b21ae64798b9b67b369c701d6",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__invoke": {
+            "name": "__invoke",
+            "line": 15,
+            "short_desc": "Provides an implementation that gets invoke when a process transaction action is completed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "result": {
+                    "name": "result",
+                    "line": 15,
+                    "short_desc": "Process Transaction result",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Drewlabs\\Txn\\ProcessTransactionResultInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

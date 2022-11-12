@@ -1,0 +1,67 @@
+{
+    "name": "Drewlabs\\Txn\\TransactionPaymentInterface",
+    "line": 5,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/TransactionPaymentInterface.php",
+    "relative_file": "\/src\/TransactionPaymentInterface.php",
+    "hash": "0e8ca95bee89dfe7b58b5f6535e9963da1bce602",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": {
+        "Drewlabs\\Txn\\TransactionInterface": "Drewlabs\\Txn\\TransactionInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getFrom": {
+            "name": "getFrom",
+            "line": 12,
+            "short_desc": "Returns the source address of the transaction",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getReturnURL": {
+            "name": "getReturnURL",
+            "line": 19,
+            "short_desc": "Returns the returns URL of the transaction payment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,95 @@
+{
+    "name": "Drewlabs\\Txn\\TransactionInitiator",
+    "line": 12,
+    "short_desc": "In the context of this library\/package a transaction initiator is the entity that produces\/creates\na transation ( a {@see TransactionInterface} in our dialect ). Based on system requirements\na transaction initiator has name, a list of clients (web service, client application, etc...) and an active or inactive state",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Drewlabs\\Txn"
+            ]
+        ]
+    },
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/TransactionInitiator.php",
+    "relative_file": "\/src\/TransactionInitiator.php",
+    "hash": "1e2326645ad56ab277d8329f9ed0e33d59cb75f5",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getName": {
+            "name": "getName",
+            "line": 20,
+            "short_desc": "Returns the name of the invoicer",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPlatforms": {
+            "name": "getPlatforms",
+            "line": 27,
+            "short_desc": "Returns the list of iterable invoicer platform",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Drewlabs\\Txn\\TransactionInitiatorPlatform",
+                    true
+                ],
+                [
+                    "\\Traversable<\\Drewlabs\\Txn\\TransactionInitiatorPlatform>",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isActive": {
+            "name": "isActive",
+            "line": 34,
+            "short_desc": "Returns the active\/inactive state of the platform entity",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

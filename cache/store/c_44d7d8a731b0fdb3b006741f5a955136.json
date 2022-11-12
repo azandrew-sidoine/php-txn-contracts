@@ -1,0 +1,53 @@
+{
+    "name": "Drewlabs\\Txn\\LibraryAwareProcessorInterface",
+    "line": 15,
+    "short_desc": "{@inheritDoc}",
+    "long_desc": "A `Library Aware Processor` is a transaction processor that has it client\nlibrary buildable by a library manager package a.k.a `drewlabs\/libman` for\ninstance. It provides a method that returns a library name or identifier that\nmight be used by the factory class to create the client.",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "Drewlabs\\Txn"
+            ]
+        ]
+    },
+    "namespace": "Drewlabs\\Txn",
+    "file": "\/Users\/azandrewsidoine\/Workspace\/azlabs\/lib\/php\/txn\/contracts\/src\/LibraryAwareProcessorInterface.php",
+    "relative_file": "\/src\/LibraryAwareProcessorInterface.php",
+    "hash": "1b5d557baaa53b3b770676c4c4926d2ca8b20591",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": {
+        "Drewlabs\\Txn\\ProcessorInterface": "Drewlabs\\Txn\\ProcessorInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getLibrary": {
+            "name": "getLibrary",
+            "line": 22,
+            "short_desc": "Returns the library id attached to the processor",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

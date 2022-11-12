@@ -2,6 +2,12 @@
 
 namespace Drewlabs\Txn;
 
+/**
+ * A `Processor` or `Transaction Processor` is an entity that handles a transaction
+ * on the behalf of the gateway platform.
+ * 
+ * @package Drewlabs\Txn
+ */
 interface ProcessorInterface
 {
     /**
