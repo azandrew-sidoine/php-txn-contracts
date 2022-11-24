@@ -22,6 +22,7 @@ interface ProcessorLibraryInterface
      * Process a transaction object using the processor implementation
      *
      * @param TransactionPaymentInterface $transaction
+     * 
      * @return bool
      */
     public function processTransaction(TransactionPaymentInterface $transaction);
