@@ -1,15 +1,22 @@
 <?php
 
-namespace Drewlabs\Txn;
+declare(strict_types=1);
 
-use Drewlabs\Txn\TransactionPaymentInterface;
-use Drewlabs\Txn\ProcessorInterface;
-use Drewlabs\Txn\LibraryAwareProcessorInterface;
+/*
+ * This file is part of the drewlabs namespace.
+ *
+ * (c) Sidoine Azandrew <azandrewdevelopper@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+namespace Drewlabs\Txn;
 
 interface ProcessorTransactionPaymentInterface extends TransactionPaymentInterface
 {
     /**
-     * Returns the processor object attached to the transaction
+     * Returns the processor object attached to the transaction.
      *
      * @return LibraryAwareProcessorInterface|ProcessorInterface
      */
