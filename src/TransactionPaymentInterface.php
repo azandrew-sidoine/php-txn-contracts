@@ -28,4 +28,39 @@ interface TransactionPaymentInterface extends TransactionInterface
      * @return string
      */
     public function getReturnURL();
+
+    /**
+     * Returns the time at which transaction was performed
+     * 
+     * @return \DateTimeInterface 
+     */
+    public function getProcessorTransactionTime(): \DateTimeInterface;
+
+    /**
+     * returns the transaction payment unique id
+     * 
+     * @return string|int 
+     */
+    public function getProcessorTransactionId();
+
+    /**
+     * returns the transaction payment response
+     * 
+     * @return array|object 
+     */
+    public function getPaymentResponse();
+
+    /**
+     * return the transaction payeer id
+     * 
+     * @return array|object 
+     */
+    public function getPayeerId();
+
+    /**
+     * returns the transaction payment status text
+     * 
+     * @return string 
+     */
+    public function getTransactionStatusText();
 }
