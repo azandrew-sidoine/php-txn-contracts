@@ -18,7 +18,7 @@ namespace Drewlabs\Txn;
  * to identify it. Transaction usually have a countable value, a weight (Ex: Currency in invoicing system),
  * the date and time at which the transaction was created and the status of the transaction.
  */
-interface TransactionInterface
+interface TransactionInterface extends HasValueMetadata
 {
     /**
      * Returns unique identifying value of the transaction on all platform.
@@ -33,14 +33,6 @@ interface TransactionInterface
      * @return string|int
      */
     public function getId();
-
-    /**
-     * Returns the actual value of the transaction. Usually in case of payment
-     * commands, transaction value is the currency based amount of the payment.
-     *
-     * @return string|int
-     */
-    public function getValue();
 
     /**
      * Return the weight of the transaction. For currency based transactions, this can be
