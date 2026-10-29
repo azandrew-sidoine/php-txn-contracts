@@ -23,7 +23,7 @@ class ProcessTxnRequestException extends RequestException
     private $payment;
 
     /**
-     * Creates an instance of {@see \Drewlabs\Txn\Exceptions\ProcessTxnRequestException} exception class.
+     * creates an instance of {@see \Drewlabs\Txn\Exceptions\ProcessTxnRequestException} exception class.
      *
      * @return void
      */
@@ -35,7 +35,7 @@ class ProcessTxnRequestException extends RequestException
     }
 
     /**
-     * Returns the txn payment instance.
+     * returns the txn payment instance.
      */
     public function getPayment(): TransactionPaymentInterface
     {

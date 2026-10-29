@@ -21,21 +21,21 @@ namespace Drewlabs\Txn;
 interface TransactionInitiator
 {
     /**
-     * Returns the name of the invoicer.
+     * returns the name of the invoicer.
      *
      * @return mixed
      */
     public function getName();
 
     /**
-     * Returns the list of iterable invoicer platform.
+     * returns the list of iterable invoicer platform.
      *
      * @return TransactionInitiatorPlatform[]|\Traversable<TransactionInitiatorPlatform>
      */
     public function getPlatforms();
 
     /**
-     * Returns the active/inactive state of the platform entity.
+     * returns the active/inactive state of the platform entity.
      *
      * @return bool
      */

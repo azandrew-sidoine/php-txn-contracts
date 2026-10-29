@@ -16,7 +16,7 @@ namespace Drewlabs\Txn;
 interface ProcessorTransactionPaymentInterface extends TransactionPaymentInterface
 {
     /**
-     * Returns the processor object attached to the transaction.
+     * returns the processor object attached to the transaction.
      *
      * @return LibraryAwareProcessorInterface|ProcessorInterface
      */

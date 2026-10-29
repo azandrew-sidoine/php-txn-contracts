@@ -20,14 +20,14 @@ namespace Drewlabs\Txn;
 interface ProcessorInterface
 {
     /**
-     * Returns the unique id of the processor.
+     * returns the unique id of the processor.
      *
      * @return string|int
      */
     public function getId();
 
     /**
-     * Returns the unique processor name.
+     * returns the unique processor name.
      *
      * @return string
      */
@@ -41,8 +41,7 @@ interface ProcessorInterface
     public function isActivated();
 
     /**
-     * Returns the payment process type of the processor. Payment process type can
-     * be a PUSH, TRANSACTIONAL payment process type.
+     * returns the payment process type of the processor. Payment process type can be a PUSH, TRANSACTIONAL payment process type.
      *
      * @return string|int
      */

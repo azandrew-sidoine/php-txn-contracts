@@ -23,7 +23,7 @@ interface TransactionPaymentInterface extends TransactionInterface
     public function getFrom();
 
     /**
-     * return the returns URL of the transaction payment.
+     * returns the returns URL of the transaction payment.
      *
      * @return string
      */

@@ -21,22 +21,21 @@ namespace Drewlabs\Txn;
 interface TransactionInterface extends HasValueMetadata
 {
     /**
-     * Returns unique identifying value of the transaction on all platform.
+     * returns unique identifying value of the transaction on all platform.
      *
      * @return string|int
      */
     public function getReference();
 
     /**
-     * Returns the transaction id on the payment payment platform.
+     * returns the transaction id on the payment payment platform.
      *
      * @return string|int
      */
     public function getId();
 
     /**
-     * Return the weight of the transaction. For currency based transactions, this can be
-     * `XOF`, 'USD', 'EUR', etc...
+     * returns the weight of the transaction. For currency based transactions, this can be `XOF`, 'USD', 'EUR', etc...
      *
      * **Note**
      * Weight will impact during transaction value from conversion
@@ -53,14 +52,14 @@ interface TransactionInterface extends HasValueMetadata
     public function createdAt();
 
     /**
-     * Returns true if the transaction is processed and false if not.
+     * returns true if the transaction is processed and false if not.
      *
      * @return bool
      */
     public function isProcessed();
 
     /**
-     * Returns true is the transaction is still in pending state.
+     * returns true is the transaction is still in pending state.
      *
      * @return mixed
      */

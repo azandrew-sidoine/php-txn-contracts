@@ -28,21 +28,21 @@ interface TransactionInitiatorPlatform
     public function getAddress();
 
     /**
-     * Returns the Domain identifier of the Invoicer platform.
+     * returns the Domain identifier of the Invoicer platform.
      *
      * @return string
      */
     public function getDomain();
 
     /**
-     * Returns the list of invoicer plaform credentials.
+     * returns the list of invoicer plaform credentials.
      *
      * @return TransactionInitiatorPlatformCredential[]|\Traversable<TransactionInitiatorPlatform>
      */
     public function getCredentials();
 
     /**
-     * Returns the active/inactive state of the platform entity.
+     * returns the active/inactive state of the platform entity.
      *
      * @return bool
      */

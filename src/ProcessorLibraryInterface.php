@@ -19,7 +19,7 @@ namespace Drewlabs\Txn;
 interface ProcessorLibraryInterface
 {
     /**
-     * Creates an instance of {@see ProcessTransactionResultInterface} from processor response.
+     * creates an instance of {@see ProcessTransactionResultInterface} from processor response.
      *
      * @param array|object $response
      *

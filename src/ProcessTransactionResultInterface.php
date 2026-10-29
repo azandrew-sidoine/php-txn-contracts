@@ -23,14 +23,14 @@ interface ProcessTransactionResultInterface
     public function getProcessorReference();
 
     /**
-     * Returns the reference of the transaction created on the transaction platform.
+     * returns the reference of the transaction created on the transaction platform.
      *
      * @return string|int
      */
     public function getReference();
 
     /**
-     * Returns the date time at wich the transaction was processed.
+     * returns the date time at wich the transaction was processed.
      *
      * @return \DateTimeInterface
      */

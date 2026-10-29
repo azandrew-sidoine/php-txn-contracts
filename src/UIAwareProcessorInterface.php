@@ -16,7 +16,7 @@ namespace Drewlabs\Txn;
 interface UIAwareProcessorInterface
 {
     /**
-     * Returns the UI configuration value of the processor.
+     * returns the UI configuration value of the processor.
      *
      * @return object|array
      */

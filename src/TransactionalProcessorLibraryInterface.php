@@ -23,7 +23,8 @@ namespace Drewlabs\Txn;
 interface TransactionalProcessorLibraryInterface extends ProcessorLibraryInterface
 {
     /**
-     * Request of an OTP used by client to process a transaction.
+     * request of an OTP used by client to process a transaction.
+     * 
      * It returns a boolean value indicating the successful state of the request.
      *
      * @return bool

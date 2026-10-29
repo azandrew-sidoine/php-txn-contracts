@@ -16,7 +16,7 @@ namespace Drewlabs\Txn;
 interface BelongsToPlatformTransaction extends TransactionInterface
 {
     /**
-     * Returns the platform to which the transaction belongs.
+     * returns the platform to which the transaction belongs.
      *
      * @return TransactionInitiatorPlatform
      */

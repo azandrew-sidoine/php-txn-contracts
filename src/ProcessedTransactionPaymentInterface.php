@@ -16,7 +16,7 @@ namespace Drewlabs\Txn;
 interface ProcessedTransactionPaymentInterface extends TransactionPaymentInterface
 {
     /**
-     * return the time at which transaction was performed.
+     * returns the time at which transaction was performed.
      * 
      * @return \DateTimeInterface
      */

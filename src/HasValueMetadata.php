@@ -17,7 +17,7 @@ interface HasValueMetadata
 {
 
     /**
-     * return the actual value of the object. 
+     * returns the actual value of the object. 
      * 
      * **Note** Usually in case of payment requests, it is a currency based amount of the payment.
      *

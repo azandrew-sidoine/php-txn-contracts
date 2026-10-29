@@ -16,16 +16,14 @@ namespace Drewlabs\Txn\Enum;
 class ProcessorPaymentProcessType
 {
     /**
-     * Transactional payment process type will require
-     * an OTP code to validate the payment.
+     * Transactional payment process type will require an OTP code to validate the payment.
      *
      * @var string
      */
     public const TRANSACTIONAL = 1;
 
     /**
-     * Non Transactional payment process type, send Push notifications
-     * to client device to validate payments.
+     * Non Transactional payment process type, send Push notifications to client device to validate payments.
      *
      * @var string
      */

@@ -22,7 +22,7 @@ use Drewlabs\Txn\Exceptions\ProcessorLibraryNotFoundException;
 interface ProcessorLibraryFactoryInterface
 {
     /**
-     * Creates a processor Library based on processor instance.
+     * creates a processor Library based on processor instance.
      *
      * @param LibraryAwareProcessorInterface $processor
      *
